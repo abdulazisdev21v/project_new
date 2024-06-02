@@ -1,0 +1,35 @@
+.Header {
+  padding-block: 10px;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      object-fit: cover;
+    }
+    .auth {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      button {
+        padding: 8px 20px;
+      }
+      .sign_in {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.25px;
+        color: rgb(93, 93, 255);
+      }
+      .sign_up {
+        background: rgb(93, 93, 255);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.25px;
+        color: #fff;
+      }
+    }
+  }
+}
