@@ -43,7 +43,98 @@
         background: rgb(51, 54, 58);
       }
     }
-    .video {
+    .logo_img {
+      display: flex;
+      padding: 55px 0;
+    }
+    .title1 {
+      padding: 50px 0 30px 0;
+      width: 768px;
+      color: rgb(217, 227, 234);
+      font-family: Inter;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 50px;
+      letter-spacing: -0.5px;
+      text-align: center;
+    }
+    .text1 {
+      width: 768px;
+      color: rgb(155, 169, 180);
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -0.25px;
+      text-align: center;
+    }
+    .instant {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 90px;
+      padding: 60px 0;
+
+      .img_logo {
+        padding: 0 0 0 115px;
+      }
+      .title_h3 {
+        padding: 10px 0 8px 55px;
+        color: rgb(217, 227, 234);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+      }
+      .text2 {
+        width: 325px;
+        height: 108px;
+        left: 0%;
+        right: 0%;
+        top: 42px;
+        bottom: 0;
+        color: rgb(155, 169, 180);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: -0.25px;
+        text-align: center;
+      }
+    }
+    .instant1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 70px;
+      padding: 20px 0;
+
+      .img_logo {
+        padding: 0 0 0 115px;
+      }
+      .title_h3 {
+        padding: 10px 0 8px 55px;
+        color: rgb(217, 227, 234);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+      }
+      .text2 {
+        width: 325px;
+        height: 108px;
+        left: 0%;
+        right: 0%;
+        top: 42px;
+        bottom: 0;
+        color: rgb(155, 169, 180);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: -0.25px;
+        text-align: center;
+      }
     }
   }
 }

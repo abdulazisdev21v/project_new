@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className={scss.Footer}>
       <div className="container">
         <div className={scss.content}>
-          <h3>Footer</h3>
+          <h4>footer</h4>
         </div>
       </div>
     </footer>
